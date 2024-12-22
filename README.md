@@ -51,8 +51,6 @@ cd blog-backend
 
 Set Up Environment Variables:
 
-Create a .env file in the root directory and add the following:
-env
 PORT=8000
 MONGODB_URI=mongodb+srv://alamsaida18:xSuNJUbPq7Htormr@cluster0.xreal.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 JWT_SECRET=b69019b4792ae183c1e4acb85bbd706c1842d0f011d2f32052f4183e1a2ec319
