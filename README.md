@@ -1,24 +1,29 @@
 Blog Backend 📝
+
 A backend API for managing blogs, authors, and comments. This application allows you to create, read, update, and delete blogs while also providing functionalities for user authentication and comment management.
 
 Features 🌟
+
 Blog Management: Add, update, delete, and view blogs.
 Author Management: Register, log in, and manage authors.
 Comments: Add, delete, and view comments on blogs.
 User Authentication: Secure APIs using JWT.
 Error Handling: User-friendly error responses for all endpoints.
+
 Technologies Used 🛠️
 Backend: Node.js, Express.js
 Database: MongoDB
 Authentication: JWT (JSON Web Tokens)
 Language: TypeScript
+
 API Endpoints 📋
 Blogs
 GET /api/blogs - Retrieve all blogs.
 POST /api/blogs - Add a new blog.
 PUT /api/blogs/:id - Update an existing blog.
 DELETE /api/blogs/:id - Delete a blog.
-Authors
+
+Users
 POST /api/auth/register - Register a new author.
 POST /api/auth/login - Log in an author.
 DELETE /api/admin/blogs/:id - Delete a specific blog.
