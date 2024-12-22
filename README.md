@@ -61,9 +61,6 @@ Install Dependencies:
 
 npm install  
 
-Run the Application Locally:
+Run the Application Locally: npm run dev 
 
-npm run dev 
-
-Access the Application:
-Use a tool like Postman or Thunder Client to test the API endpoints.
+Access the Application: Use a tool like Postman or Thunder Client to test the API endpoints.
