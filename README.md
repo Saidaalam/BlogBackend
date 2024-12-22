@@ -11,22 +11,37 @@ User Authentication: Secure APIs using JWT.
 Error Handling: User-friendly error responses for all endpoints.
 
 Technologies Used 🛠️
+
 Backend: Node.js, Express.js
+
 Database: MongoDB
-Authentication: JWT (JSON Web Tokens)
+
+Authentication: JWT (JSON Web Tokens
+
 Language: TypeScript
 
 API Endpoints 📋
+
 Blogs
+
 GET /api/blogs - Retrieve all blogs.
+
 POST /api/blogs - Add a new blog.
+
 PUT /api/blogs/:id - Update an existing blog.
+
 DELETE /api/blogs/:id - Delete a blog.
 
 Users
+
+GET /api/users - Retrieve all users.
+
 POST /api/auth/register - Register a new author.
+
 POST /api/auth/login - Log in an author.
+
 DELETE /api/admin/blogs/:id - Delete a specific blog.
+
 PATCH /api/admin/users/:userId/block - Block an user.
 
 Clone the Repository:
