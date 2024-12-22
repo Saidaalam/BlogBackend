@@ -47,6 +47,7 @@ JWT_SECRET=b69019b4792ae183c1e4acb85bbd706c1842d0f011d2f32052f4183e1a2ec319
 Install Dependencies:
 
 npm install  
+
 Run the Application Locally:
 
 npm run dev 
